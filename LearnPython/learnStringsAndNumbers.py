@@ -9,6 +9,8 @@ from math import *
 
 phrase = "Grace Kim"
 print(phrase)
+print(3 * phrase)                   # prints "Grace KimGrace KimGrace Kim" aka prints the phrase 3 times
+print(phrase * 3)                   # prints "Grace KimGrace KimGrace Kim" aka prints the phrase 3 times
 print(phrase.lower())               # converting string to all lowercase characters
 print(phrase.upper())               # converting string to all uppercase characters
 print(phrase.isupper())             # returns true if string is all uppercase
